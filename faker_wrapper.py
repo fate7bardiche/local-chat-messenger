@@ -43,6 +43,8 @@ def getValue(fake: Faker, propName: str):
         return fake.name_male()
     if(propName == fakerDict["address_full"]):
         return fake.address()
+    if(propName == fakerDict["email"]):
+        return fake.email()
     if(propName == fakerDict["color_hex"]):
         return fake.color()
     if(propName == fakerDict["color_rgb"]):
