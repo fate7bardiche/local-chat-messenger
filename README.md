@@ -1,6 +1,12 @@
 # local-chat-messenger
 ローカルシステムで動作するシンプルなチャットメッセンジャー
 
+## 使用技術
+![Static Badge](https://img.shields.io/badge/-Python-F9DC3E.svg?style=flat&logo=python)
+![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)
+[![Static Badge](https://img.shields.io/badge/Faker-006DAD)](https://pypi.org/project/Faker/)
+![Static Badge](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
 ## 概要
 欲しいデータの種類を入力することでダミーデータをテキストで取得できるアプリです。  
 サーバーとクライアントをソケットで繋ぎ、対話形式でダミーデータを取得します。
